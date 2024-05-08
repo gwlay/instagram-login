@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top:80px ;
+    
+    .login-form{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0px;
+
+        .login{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid #CFCFCF;
+            flex-direction: column;
+            padding: 40px 30px 10px 30px;
+            border-radius: 1px;
+
+            .logo{
+                width: 200px;
+                margin-bottom: 25px;
+
+            }
+            input{
+                width: 100% ;
+                padding: 9px 8px 7px 8px;
+                background-color: #f1f4f7;
+                border-radius: 3px;
+                border: 1px solid #CFCFCF;
+                margin: 5px;
+            }
+            button{
+                margin: 10px 30px;
+                text-align: center;
+                width: 210px;
+                background-color: #58B9E0;
+                border: none;
+                border-radius: 3px;
+                color: #fff;
+                padding: 7px 15px;
+                font-size: 15px;
+            }
+            .or{
+                color: #AFC2CA;
+                margin: 20px 0px;
+            }
+
+
+
+            .facebook-login{
+                font-weight: 700;
+                font-size: 14px;
+                color: rgb(85,0,255);
+                margin-bottom: 5px;
+                margin-top: 5px;
+            }
+            .forgot-password{
+    
+                font-size: 12px;
+                color:#00376b;
+                margin-top: 20px;
+    
+        }
+        a{
+            text-decoration: none;
+        }
+        i{
+            color:#135F80;
+            display: inline;        
+        }
+        span{
+            color: #385185;
+            display: inline;
+        }
+
+
+        }
+    }
+
+    .sign-up{
+        border: 1px solid #CFCFCF;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 7px;
+        padding: 10px 0px;}
+        p{
+            font-size: 14px;
+            color: black;
+            margin: 15px 0px;
+        }
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            color: #0095f6;
+            margin: 15px 0px;
+            margin-left: 5px;
+        }
+
+        .get-app{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 15px;
+        }
+
+
+}
+
+.apps{
+    display: flex;
+    align-items: center;
+    width: 180px;
+    margin: 0px 33px;
+    .playmarket{
+        width: 134px;
+
+    }
+    .micrasoft{
+        width: 110px;
+   
+    }
+}
+
+footer{
+    .links{
+        margin-left: 350px;
+        margin-top: 20px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 10px;
+            margin-bottom: 12px;
+
+            a{
+                text-decoration: none;
+                font-size: 12px;
+                color: #737373;
+            }
+        }
+
+    }
+}
+
+.bottom-footer{
+    display: flex;
+    gap: 20px;
+
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        margin: 0px 500px;
+
+        a{
+            text-decoration: none;
+            font-size: 12px;
+            color: #737373;
+        }}
+}
